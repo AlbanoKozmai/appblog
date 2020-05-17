@@ -1,0 +1,171 @@
+/* Global Css */
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  color: #444;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility; }
+  body p {
+    margin: 0 0 25px; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+strong,
+b,
+cite {
+  font-weight: 700; }
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #000;
+  margin: 0;
+  text-rendering: optimizeLegibility; }
+
+h2 {
+  font-size: 32px;
+  line-height: 45px; }
+
+h3 {
+  font-size: 28px;
+  line-height: 33px; }
+
+h4 {
+  font-size: 25px;
+  line-height: 30px; }
+
+h5 {
+  font-size: 20px;
+  line-height: 25px; }
+
+h6 {
+  font-size: 16px;
+  line-height: 21px; }
+
+/* Links */
+a {
+  color: #444;
+  outline: 0;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  cursor: pointer; }
+  a:hover, a:focus, a:active {
+    color: #444;
+    text-decoration: none;
+    outline: 0; }
+
+/* Layout */
+.main-container {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.inner-container {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+/* Log In */
+.login-page {
+  max-width: 360px;
+  padding: 0;
+  margin: auto; }
+  .login-page .form {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto 20px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    /* Register */ }
+    .login-page .form input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px; }
+    .login-page .form button {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      outline: 0;
+      background: #4CAF50;
+      width: 100%;
+      border: 0;
+      padding: 15px;
+      color: #FFFFFF;
+      font-size: 14px;
+      -webkit-transition: all 0.3 ease;
+      transition: all 0.3 ease;
+      cursor: pointer; }
+      .login-page .form button:hover, .login-page .form button:focus, .login-page .form button:active {
+        background: #43A047; }
+    .login-page .form .message {
+      margin: 15px 0 0;
+      color: #b3b3b3;
+      font-size: 12px; }
+      .login-page .form .message a {
+        color: #4CAF50;
+        text-decoration: none; }
+    .login-page .form .register-form {
+      display: none; }
+
+/* Sidebar */
+.sidebar-wrapper {
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-color: #696969;
+  border: 1px solid #696969;
+  padding: 30px 0; }
+  .sidebar-wrapper .sidebar .menu-wrapper .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .sidebar-wrapper .sidebar .menu-wrapper .menu .menu-item {
+      display: flex; }
+      .sidebar-wrapper .sidebar .menu-wrapper .menu .menu-item .menu-item-link {
+        font: 500 16px/20px "Roboto", sans-serif;
+        letter-spacing: 0.6px;
+        color: #fff;
+        padding: 10px 15px;
+        border-bottom: 1px solid #1d5cc5;
+        min-width: 100%;
+        transition: all .3s; }
+        .sidebar-wrapper .sidebar .menu-wrapper .menu .menu-item .menu-item-link:hover, .sidebar-wrapper .sidebar .menu-wrapper .menu .menu-item .menu-item-link:focus, .sidebar-wrapper .sidebar .menu-wrapper .menu .menu-item .menu-item-link:active {
+          background-color: #446397;
+          transition: all .3s; }
+      .sidebar-wrapper .sidebar .menu-wrapper .menu .menu-item.active .menu-item-link {
+        background-color: #1d5cc5; }
+
+/*# sourceMappingURL=style.css.map */
